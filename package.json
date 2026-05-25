@@ -16,6 +16,22 @@
   "keywords": ["mcp", "code-review", "security", "vulnerability", "static-analysis", "ai"],
   "author": "messiahyl",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/messiahyl/codeguard-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/messiahyl/codeguard-mcp/issues"
+  },
+  "homepage": "https://github.com/messiahyl/codeguard-mcp#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ],
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.29.0"
   },
