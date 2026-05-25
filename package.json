@@ -1,0 +1,26 @@
+{
+  "name": "codeguard-mcp",
+  "version": "1.0.0",
+  "description": "AI-powered code security review MCP server - scan code for vulnerabilities, code smells, and performance issues",
+  "main": "dist/index.js",
+  "bin": {
+    "codeguard-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "prepare": "npm run build"
+  },
+  "type": "module",
+  "keywords": ["mcp", "code-review", "security", "vulnerability", "static-analysis", "ai"],
+  "author": "messiahyl",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
